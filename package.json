@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+ "scripts": {
     "dev": "tsx server.ts",
     "build": "npm install --legacy-peer-deps && vite build",
     "start": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "postinstall": "prisma skills sync || exit 0"
+    "postinstall": "npm install --legacy-peer-deps || exit 0"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
