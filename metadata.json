@@ -1,0 +1,6 @@
+{
+  "name": "TravelAnytime - Đặt Tour Du Lịch Giá Rẻ & Uy Tín",
+  "description": "Nền tảng đặt tour du lịch trọn gói trong nước và quốc tế hàng đầu, săn tour giá rẻ, khám phá địa danh nổi tiếng với ưu đãi hấp dẫn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
